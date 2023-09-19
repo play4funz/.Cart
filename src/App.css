@@ -1,0 +1,44 @@
+
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+p{
+  font-size: 14px;
+  margin: auto;
+}
+
+button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background-color: green;
+  color: white;
+}
+
+/* Header starts here */
+.input-group button{
+  background: transparent;
+  font-size: 14px;
+  color: black;
+}
+
+.header-upper{
+  background: beige;
+}
+
+.nav-links a{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-links-nav, .social-icons a{
+  color: black;
+}
+/* Header ends here */
+/* Footer starts here*/
+.footer{
+  background-color: beige;
+}
+/* Footer ends here*/
