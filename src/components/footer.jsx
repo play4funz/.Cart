@@ -8,12 +8,12 @@ const footer = () => {
   <footer className='footer'>
     <div className='container-xxl'>
       <div className='row'>
-        <div className='col-4 d-flex flex-column'>
+        <div className='col-4 mt-3 d-flex flex-column'>
           <h3 className='mb-5'> Contact us</h3>
           <div className='footer-details'>
-            <p className='mb-3'><b>Address:</b>Singapore</p>
-            <p className='mb-3'><b>Phone:</b><a href="tel:12356890">Call us at 12356890</a></p>
-            <p className='mb-5'><b>Hours Open:</b>From 8am to 9pm</p>
+            <p className='mb-3'><b>Address:</b> Singapore</p>
+            <p className='mb-3'><b>Phone:</b><a href="tel:12356890"> Call us at 12356890</a></p>
+            <p className='mb-5'><b>Hours Open:</b> From 8am to 9pm</p>
             <p className='mb-3'><b>Follow Us</b></p>
             <div className='col-4 social-icons mb-3 d-flex justify-content-around'>
               <Link><AiFillTwitterCircle className='fs-4'/></Link>
@@ -23,9 +23,9 @@ const footer = () => {
             </div>
           </div>
         </div>
-        <div className='col-2'>
+        <div className='col-2 mt-3'>
           <h3 className='mb-5'>About</h3>
-          <div className='footer details d-flex flex-column'>
+          <div className='footer-details d-flex flex-column'>
             <Link className='mb-3'>
               About Us
             </Link>
@@ -46,9 +46,9 @@ const footer = () => {
             </Link>
           </div>
         </div>
-        <div className='col-2'>
+        <div className='col-2 mt-3'>
           <h3 className='mb-5'>Account</h3>
-          <div className='footer details d-flex flex-column'>
+          <div className='footer-details d-flex flex-column'>
             <Link className='mb-3'>
               Profile
             </Link>

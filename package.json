@@ -7,14 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "db": "npx json-server --watch db.json --routes routes.json"
   },
   "dependencies": {
+    "airtable": "^0.12.2",
+    "axios": "^1.5.0",
     "bootstrap": "^5.3.2",
+    "dummy-json": "^3.0.5",
+    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
+    "react-router": "^6.16.0",
     "react-router-dom": "^6.16.0"
   },
   "devDependencies": {
