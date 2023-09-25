@@ -30,7 +30,7 @@ const FeaturedProducts = () => {
               <div className="card-footer m-auto text-center">
                 <p className="text-danger fs-4">{product.status}</p>
                 <p className="price">
-                  <span className="red"></span> <strike>${product.price}</strike>
+                  <span className="red"></span> <p>${product.price}</p>
                 </p>
               </div>
               <div className="card-footer d-md-none">

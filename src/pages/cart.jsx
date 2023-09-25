@@ -1,11 +1,11 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-/* import { ShopContextProvider } from '../components/shopcontext'; */
+import { ShopContext } from '../components/shopcontext';
 import CartItem from '../components/cartitem';
 import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
-  const { cartItems, getTotalCartAmount, clearCart } = useContext(ShopContextProvider);
+  const { cartItems, getTotalCartAmount, clearCart } = useContext(ShopContext);
   const totalAmount = getTotalCartAmount();
   const navigate = useNavigate();
   const [isMobile, setIsMobile] = useState(false);

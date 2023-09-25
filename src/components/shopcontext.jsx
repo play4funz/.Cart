@@ -102,7 +102,7 @@ const ShopContextProvider = (props) => {
     fetch(`${airtableUrl}/${tableName}`, {
       method: 'PATCH',
       headers: {
-        'Authorization': `Bearer ${Authorization}`, // Use the correct Authorization variable
+        'Authorization': `Bearer ${Authorization}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(payload)

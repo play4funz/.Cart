@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { ShopContext } from './shopcontext';
-import Details from '../pages/details';
+
 
 const Shopitems = () => {
   const [products, setProducts] = useState([]);
@@ -40,7 +40,7 @@ const Shopitems = () => {
               <div className="mb-3">
                 <p className="price mb-2">
                   <span className="red">${product.price}</span>&nbsp;
-                  <strike>${product.price * 2}</strike>
+                  <p>${product.price * 2}</p>
                 </p>
                 <Link to="/details" onClick={() => viewProductDetails(product.id)}>
                   <p className="text-center">

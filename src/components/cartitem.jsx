@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 
-const TOKEN = "YOUR_API_TOKEN"; // Replace with your actual API token
+const TOKEN = "patoQuEJ03ThjpevV.830a71f3d8802c2ad5818d940684937ddb8dd168c0ea32bd07a9a2248f297e07"; 
 const BASE_URL = "https://api.airtable.com/v0/app25NtjIREhmBAXA/Cart%20items";
 
 const ShoppingCart = () => {
